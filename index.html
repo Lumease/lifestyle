@@ -2,138 +2,161 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amber Smith - Lifestyle Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+  <!-- Header -->
   <header>
-    <h1>Bienvenue sur ma page</h1>
+    <div class="container">
+      <h1>Amber Smith</h1>
+      <p class="tagline">Beauty . Travel . Lifestyle</p>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Shop My Insta</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.com" target="_blank">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#section1">Section 1</a></li>
-      <li><a href="#section2">Section 2</a></li>
-      <li><a href="#section3">Section 3</a></li>
-      <li><a href="#section4">Section 4</a></li>
-      <li><a href="#section5">Section 5</a></li>
-    </ul>
-  </nav>
+  <!-- Hero / Introduction -->
+  <section class="hero">
+    <div class="intro-box">
+      <h2>Introduction Goes Here</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis est exercitationem provident, molestias
+        alias temporibus, quasi laboriosam minima reiciendis pariatur, harum id hic dolores nesciunt nobis beatae quae
+        illum tempora.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
 
-  <!-- Sections -->
-  <main>
-    <!-- Répété 5 fois -->
-    <section id="section1">
-      <h2>Section 1</h2>
-      <div class="section-content">
-        <div>
-          <h1>Titre 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-        </div>
-        <div>
-          <h1>Titre 2</h1>
-          <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
-        </div>
-        <div>
-          <h1>Titre 3</h1>
-          <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula.</p>
-        </div>
+  <!-- Category Cards -->
+  <section class="categories">
+    <div class="container">
+      <div class="card">Travel</div>
+      <div class="card">Lifestyle</div>
+      <div class="card">Home</div>
+    </div>
+  </section>
+
+  <!-- Newsletter / Planner Download -->
+  <section class="newsletter">
+    <h3>Download My Monthly Planner</h3>
+    <p>Sign up to receive this printable for free!</p>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="blog-posts">
+    <div class="post">
+      <img src="img1.jpg" alt="Post image" />
+      <div class="post-content">
+        <p class="date">Month, Day, Year</p>
+        <h4>Lorem ipsum dolor sit amet</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit rem nisi architecto in ad earum sed,
+          voluptatibus, nostrum eum libero cum aliquid eos illum enim inventore modi totam maxime perspiciatis
+          dignissimos voluptas labore. Atque, deleniti porro? Impedit, quibusdam laboriosam!</p>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </section>
+    </div>
 
-    <section id="section2">
-      <h2>Section 2</h2>
-      <div class="section-content">
-        <div>
-          <h1>Titre 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-        </div>
-        <div>
-          <h1>Titre 2</h1>
-          <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
-        </div>
-        <div>
-          <h1>Titre 3</h1>
-          <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula.</p>
-        </div>
+    <div class="post">
+      <img src="img1.jpg" alt="Post image" />
+      <div class="post-content">
+        <p class="date">Month, Day, Year</p>
+        <h4>Lorem ipsum dolor sit amet</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit rem nisi architecto in ad earum sed,
+          voluptatibus, nostrum eum libero cum aliquid eos illum enim inventore modi totam maxime perspiciatis
+          dignissimos voluptas labore. Atque, deleniti porro? Impedit, quibusdam laboriosam!</p>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </section>
+    </div>
 
-    <section id="section3">
-      <h2>Section 3</h2>
-      <div class="section-content">
-        <div>
-          <h1>Titre 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-        </div>
-        <div>
-          <h1>Titre 2</h1>
-          <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
-        </div>
-        <div>
-          <h1>Titre 3</h1>
-          <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula.</p>
-        </div>
+    <div class="post">
+      <img src="img1.jpg" alt="Post image" />
+      <div class="post-content">
+        <p class="date">Month, Day, Year</p>
+        <h4>Lorem ipsum dolor sit amet</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit rem nisi architecto in ad earum sed,
+          voluptatibus, nostrum eum libero cum aliquid eos illum enim inventore modi totam maxime perspiciatis
+          dignissimos voluptas labore. Atque, deleniti porro? Impedit, quibusdam laboriosam!</p>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="section4">
-      <h2>Section 4</h2>
-      <div class="section-content">
-        <div>
-          <h1>Titre 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-        </div>
-        <div>
-          <h1>Titre 2</h1>
-          <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
-        </div>
-        <div>
-          <h1>Titre 3</h1>
-          <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula.</p>
-        </div>
+  <!-- Popular Posts -->
+  <section class="popular-posts">
+    <h3>Popular Posts</h3>
+    <div class="popular-wrapper">
+      <div class="popular-post">
+        <img src="popular1.jpg" alt="Popular post" />
+        <h4>Lorem ipsum dolor</h4>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </section>
-
-    <section id="section5">
-      <h2>Section 5</h2>
-      <div class="section-content">
-        <div>
-          <h1>Titre 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
-        </div>
-        <div>
-          <h1>Titre 2</h1>
-          <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue.</p>
-        </div>
-        <div>
-          <h1>Titre 3</h1>
-          <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula.</p>
-        </div>
+      <div class="popular-post">
+        <img src="popular2.jpg" alt="Popular post" />
+        <h4>Lorem ipsum dolor</h4>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <!-- Formulaire -->
-  <form>
-    <h2>Contactez-nous</h2>
-    <label for="name">Nom :</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="email">Email :</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for="message">Message :</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-    <button type="submit">Envoyer</button>
-  </form>
-
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 - Mon site</p>
+    <h4>Get The Latest</h4>
+    <form>
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email Address" />
+      <button type="submit">Subscribe</button>
+    </form>
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="www.instagram.com"></a></li>
+        <li><a href="www.youtube.com"></a></li>
+        <li><a href="www.pinterest.com"></a></li>
+        <li><a href="www.tiktok.com"></a></li>
+        <li><a href="www.facebook.com"></a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 
