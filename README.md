@@ -6,6 +6,8 @@ Ils seront en libre accès, et vous trouverez toutes les informations relatives 
 
 Le lien direct sera disponible une fois le projet terminé.
 
+Aussi, n'hésitez pas à me contacter si vous avez des demandes ou des idées particulières. 
+
 ## Modifications et publication du modèle
 
 Vous êtes débutants et vous souhaitez avoir ce modèle ?
