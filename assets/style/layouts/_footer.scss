@@ -1,0 +1,39 @@
+footer {
+  background-color: #e9d2b4;
+  padding: 2rem;
+  text-align: center;
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  input {
+    margin: 0.5rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #a2b69d;
+    color: white;
+    border: none;
+
+    &:hover {
+      background-color: #8ea48b;
+    }
+  }
+
+  .socials {
+    margin-top: 1.5rem;
+
+    a {
+      margin: 0 0.5rem;
+      color: #333;
+
+      &:hover {
+        color: #79916e;
+      }
+    }
+  }
+}
