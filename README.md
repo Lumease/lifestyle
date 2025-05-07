@@ -2,6 +2,8 @@
 
 Les projets "one-shot" seront régulièrement publiés et seront des projets rapides et esthétiques. Ici, pas d'intégrations complexes, ou trop volumineuses.
 
+Les photos seront différentes de la maquette, car elles sont de trop basse qualité. 
+
 Ils seront en libre accès, et vous trouverez toutes les informations relatives à son téléchargement ci dessous.
 
 Le lien direct sera disponible une fois le projet terminé.
