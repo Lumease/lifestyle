@@ -1,36 +1,40 @@
+// FONTS 
+@font-face {
+  font-family:"Baskerville";
+  src: url(./fonts/Baskerville/Baskervville-Regular.ttf);
+}
+@font-face {
+  font-family:"Dancing";
+  src: url(./fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family:"Lato";
+  src: url(./fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family:"Playfair";
+  src: url(./fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+$font1:"Baskerville";
+$font2:"Dancing";
+$font3:"Lato";
+$font4:"Playfair";
+
 // COLORS
-$color-primary: #a2b69d;
-$color-primary-dark: #8ea48b;
-$color-secondary: #e2c9a1;
-$color-secondary-dark: #d9b88e;
-$color-beige-light: #f8f8f0;
-$color-beige: #f1f1df;
-$color-green-dark: #798c6d;
-$color-text: #333;
-$color-heading: #3c3c3c;
-$color-white: #ffffff;
-$color-input-border: #ccc;
+$color1:#D3D9C5; 
+$color2:#E9CCAB;
+$color3:#EEF0E2;
+$color4:#A6B49C;
+$color5:#4A4A4A;
+$color6:#6E745B;
+$color7:#B7C3A4;
+$color8:#D6B196;
 
-// FONTS
-$font-body: 'Helvetica Neue', Arial, sans-serif;
-$font-title: 'Georgia', serif;
-$font-accent: 'Cormorant Garamond', serif;
+// MIXINS
 
-// FONT SIZES
-$font-size-base: 1rem;
-$font-size-small: 0.875rem;
-$font-size-large: 1.25rem;
-$font-size-title: 2rem;
-$font-size-subtitle: 1.5rem;
+// BUTTON
 
-// SPACING
-$spacing-xs: 0.5rem;
-$spacing-sm: 1rem;
-$spacing-md: 2rem;
-$spacing-lg: 3rem;
+// BODY
 
-// BORDERS & RADIUS
-$border-radius: 4px;
-
-// SHADOWS
-$box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.05);
+// SECTION

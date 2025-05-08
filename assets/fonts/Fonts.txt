@@ -1,9 +1,7 @@
-Fonts used in this design:
-
-Font: Montserrat
-Author: Julieta Ulanovsky,Sol Matas,Juan Pablo del Peral,Jacques Le Bailly
-Url: https://fonts.google.com/specimen/Montserrat
-
-Font: Playfair Display
-Author: Claus Eggers Sørensen
-Url: https://fonts.google.com/specimen/Playfair+Display
+// Fonts
+| Usage              | Police suggérée            | Style      |
+| ------------------ | -------------------------- | ---------- |
+| Nom du blog        | Playfair Display           | Serif      |
+| Slogan             | Dancing Script / Vibes     | Cursive    |
+| Menu / Paragraphes | Montserrat / Lato          | Sans-serif |
+| Titres de section  | Merriweather / Baskerville | Serif      |
