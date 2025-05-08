@@ -32,8 +32,27 @@ $color7:#B7C3A4;
 $color8:#D6B196;
 
 // MIXINS
+@include center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@include space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@include column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 // BUTTON
+.btn-container {
+  padding: 10px;
+}
 
 // BODY
 
