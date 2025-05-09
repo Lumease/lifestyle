@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/index.css">
   <title>Amber Smith - Beauty . Travel . Lifestyle</title>
 </head>
@@ -13,7 +16,7 @@
   <!-- HEADER -->
   <header>
     <h1>Amber Smith</h1>
-    <p><em>Beauty . Travel . Lifestyle</em></p>
+    <p>Beauty . Travel . Lifestyle</p>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -22,6 +25,30 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <div class="nav-socials">
+      <ul>
+        <li>
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://pinterest.com" target="_blank">
+            <i class="fa-brands fa-pinterest"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://tiktok.com" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <!-- MAIN -->
@@ -51,7 +78,9 @@
       <form>
         <input type="text" placeholder="Full Name" />
         <input type="email" placeholder="Email Address" />
-        <button type="submit">Subscribe</button>
+        <div class="btn-container">
+          <button type="submit">Subscribe</button>
+        </div>
       </form>
     </section>
 
@@ -64,18 +93,24 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam saepe autem nam blanditiis sapiente.
             Quidem tempora asperiores amet unde molestiae pariatur quod cupiditate voluptates officiis. Molestiae culpa
             qui iusto, veniam pariatur voluptatum in dicta! Quis ut hic consequatur sed.</p>
-          <button>Read More</button>
+          <div class="btn-container">
+            <button>Read More</button>
+          </div>
         </div>
       </div>
 
       <div class="article">
-        <img src="./assets/img/second-pic.jpg" height="150px" alt="article image">
         <div class="content">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum pariatur tempora perferendis
             suscipit fugit quae placeat mollitia officia labore eius incidunt animi, nostrum tempore beatae assumenda?
             Ea dolor excepturi repudiandae quo hic, nulla eaque sint maiores illo eveniet. Voluptatibus.</p>
-          <button>Read More</button>
+          <div class="btn-container">
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./assets/img/second-pic.jpg" height="150px" alt="article image">
         </div>
       </div>
 
@@ -86,7 +121,9 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, deserunt quisquam voluptatum explicabo
             et nostrum sapiente? Debitis neque exercitationem harum, facilis fugiat fuga perferendis hic corporis est,
             distinctio laborum omnis qui sequi aliquid assumenda consectetur vitae et tempore itaque maxime!</p>
-          <button>Read More</button>
+          <div class="btn-container">
+            <button>Read More</button>
+          </div>
         </div>
       </div>
     </section>
@@ -97,11 +134,15 @@
       <div class="posts">
         <div class="post">
           <img src="./assets/img/post-pic-1.jpg" height="150px" alt="popular post 1">
-          <button>Lorem ipsum dolor</button>
+          <div class="btn-container">
+            <button>Lorem ipsum dolor</button>
+          </div>
         </div>
         <div class="post">
           <img src="./assets/img/post-pic-2.jpg" height="150px" alt="popular post 2">
-          <button>Lorem ipsum dolor</button>
+          <div class="btn-container">
+            <button>Lorem ipsum dolor</button>
+          </div>
         </div>
       </div>
     </section>
@@ -114,10 +155,12 @@
     <form>
       <input type="text" placeholder="Full Name" />
       <input type="email" placeholder="Email Address" />
-      <button type="submit">Subscribe</button>
+      <div class="btn-container">
+        <button type="submit">Subscribe</button>
+      </div>
     </form>
 
-    <div class="socials">
+    <div class="footer-socials">
       <a href="#"><i class="fab fa-instagram"></i></a>
       <a href="#"><i class="fab fa-youtube"></i></a>
       <a href="#"><i class="fab fa-pinterest"></i></a>
