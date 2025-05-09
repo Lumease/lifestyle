@@ -5,12 +5,12 @@ header {
   .title {
     h1 {
       font-family: $font4;
-      color: #6E745B;
+      color: $color6;
       font-size: 3rem;
     }
     p {
       @include center;
-      color: #6E745B;
+      color: $color6;
       font-style: italic;
       font-size: 1.5rem;
       min-width: 100% ;
@@ -18,18 +18,45 @@ header {
   }
 
   nav {
-    @include column;
     font-family: $font3;
-    min-width: 50%;
 
     ul {
-      @include center-row;
-      min-width: auto;
-      gap: 2rem;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 3rem;
       li a {
+        position: relative;
         text-transform: uppercase;
         text-decoration: none;
         color: $color9;
+
+          &:hover {
+            color: $color6;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0%;
+            height: 2px;
+            background-color: $color6;
+            transition: width 0.3s ease;
+        }
+        &:hover::after {
+          width: 100%;
+          color: $color6;
+        }
+      }
+    }
+    .nav-socials {
+      li {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+      }
+      a {
+        color: $color7;
       }
     }
   }
