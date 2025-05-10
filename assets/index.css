@@ -21,6 +21,7 @@
   letter-spacing: 2px;
   color: #6E745B;
   border: 1px;
+  font-weight: 600;
 }
 .intro .btn-container button:hover {
   cursor: pointer;
@@ -213,7 +214,6 @@ header nav .nav-socials a {
   position: absolute;
   left: 10px;
   right: 10px;
-  bottom: 10px;
   height: 1px;
   background-color: #6E745B;
   -webkit-transform: scaleX(0);
@@ -297,6 +297,56 @@ header nav .nav-socials a {
       -ms-flex-align: center;
           align-items: center;
   margin: 2rem 0 2rem;
+}
+
+.categories {
+  margin: 15rem 0 15rem;
+}
+.categories .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
+.categories .category .category-t, .categories .category .category-l, .categories .category .category-h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Dancing";
+  font-size: 2.5rem;
+  color: white;
+  min-height: 15rem;
+  min-width: 25rem;
+}
+.categories .category .category-t {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(/assets/img/travel.jpg);
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/travel.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.categories .category .category-l {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(/assets/img/cascade.jpg);
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/cascade.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.categories .category .category-h {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(/assets/img/home.jpg);
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/home.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 footer {

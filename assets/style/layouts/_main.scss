@@ -34,7 +34,6 @@
       position: absolute;
       left: 10px;
       right: 10px;
-      bottom: 10px;
       height: 1px;
       background-color: $color6;
       transform: scaleX(0);
@@ -101,6 +100,40 @@
     .btn-container {
       @include center;
       margin: 2rem 0 2rem;
+    }
+  }
+}
+
+// CATEGORIES 
+.categories {
+  margin: 15rem 0 15rem;
+
+  .category {
+      @include center;
+      gap: 5rem;
+
+    .category-t, .category-l, .category-h {
+      @include center;
+      font-family: $font2;
+      font-size: 2.5rem;
+      color: white;
+      min-height: 15rem;
+      min-width: 25rem;
+    }
+    .category-t {
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/travel.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .category-l {
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/cascade.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+    .category-h {
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/home.jpg);
+      background-position: center;
+      background-size: cover;
     }
   }
 }
