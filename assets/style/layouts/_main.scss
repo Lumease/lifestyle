@@ -106,7 +106,7 @@
 
 // CATEGORIES 
 .categories {
-  margin: 15rem 0 15rem;
+  margin: 12rem 0 5rem;
 
   .category {
       @include center;
@@ -135,5 +135,38 @@
       background-position: center;
       background-size: cover;
     }
+  }
+}
+
+// NEWSLETTER 
+.newsletter {
+  height: auto;
+  background-color: $color2;
+  padding: 3rem 0 1rem;
+
+  h3 {
+    font-family: $font2;
+    font-size: 2rem;
+    color: $color6;
+  }
+  p {
+    @include center;
+    font-family: $font3;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: $color6;
+    padding: 1rem 0 2rem;
+  }
+  form {
+    @include center;
+    gap: 0.5rem;
+  }
+  input {
+    padding: 1rem;
+  }
+  .btn-container {
+    @include center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
