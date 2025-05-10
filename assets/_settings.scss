@@ -69,13 +69,13 @@ $color9:#323131;
     text-transform: uppercase;
     background-color: #E9CCAB;
     letter-spacing: 2px;
-    color: #ffffffe4 ;
+    color: $color6 ;
     border: 1px;
     
     &:hover {
       cursor: pointer;
       background-color: white;
-      color:#E9CCAB ;
+      color: $color6 ;
       border: 1px solid $color6;
       transition: 0.5s ease;
     }
