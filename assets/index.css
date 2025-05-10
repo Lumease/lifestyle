@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Baskerville-Bold";
   src: url(./fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
@@ -26,7 +27,7 @@
   cursor: pointer;
   background-color: white;
   color: #E9CCAB;
-  border: 1px solid #E9CCAB;
+  border: 1px solid #6E745B;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
@@ -42,8 +43,8 @@
 .btn-container button:hover {
   cursor: pointer;
   background-color: white;
-  color: #A6B49C;
-  border: 1px solid #A6B49C;
+  color: #6E745B;
+  border: 1px solid #6E745B;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
@@ -173,6 +174,58 @@ header nav .nav-socials li {
 }
 header nav .nav-socials a {
   color: #B7C3A4;
+}
+
+.intro {
+  min-height: 50vh;
+  background: url(/assets/img/bg-main.jpg) center/cover fixed;
+  position: relative;
+}
+.intro .content {
+  height: auto;
+  position: absolute;
+  background: #ecf0e5;
+  width: 50%;
+  margin: 0 auto;
+  bottom: -120px; /* dépasse de 50px sous l'image */
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+.intro .content h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Dancing";
+  font-size: 2rem;
+  color: #6E745B;
+  margin: 2rem 0 2rem;
+}
+.intro .content p {
+  max-width: 60%;
+  margin: 0 auto;
+  font-family: "Lato";
+  font-size: 0.75rem;
+}
+.intro .content .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0 2rem;
+}
+.intro .content .btn-container button {
+  color: #6E745B;
 }
 
 footer {

@@ -1,0 +1,38 @@
+// INTRO 
+.intro {
+  min-height: 50vh;
+  background: url(/assets/img/bg-main.jpg) center/cover fixed;
+  position: relative;
+
+  .content {
+    height: auto;
+    position: absolute;
+    background: #ecf0e5 ;
+    width: 50%;
+    margin: 0 auto;
+    bottom: -120px; /* dépasse de 50px sous l'image */
+    transform: translateX(50%);
+
+    h2 {
+      @include center;
+      font-family: $font2;
+      font-size: 2rem;
+      color: $color6;
+      margin: 2rem 0 2rem;
+    }
+    p {
+      max-width: 60%;
+      margin: 0 auto;
+      font-family: $font3;
+      font-size: 0.75rem;
+    }
+    .btn-container {
+      @include center;
+      margin: 2rem 0 2rem;
+      
+      button {
+        color: $color6;
+      }
+    }
+  }
+}

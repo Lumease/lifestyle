@@ -76,7 +76,7 @@ $color9:#323131;
       cursor: pointer;
       background-color: white;
       color:#E9CCAB ;
-      border: 1px solid #E9CCAB;
+      border: 1px solid $color6;
       transition: 0.5s ease;
     }
   }
@@ -93,8 +93,8 @@ $color9:#323131;
       &:hover {
         cursor: pointer;
         background-color: white;
-        color: #A6B49C;
-        border: 1px solid #A6B49C;
+        color: $color6;
+        border: 1px solid $color6;
         transition: 0.5s ease;
       }
     }
