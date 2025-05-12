@@ -60,7 +60,12 @@ $color9:#323131;
   align-items: center;
   flex-direction: column;
 }
-
+@mixin start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 // BUTTON
 
 .intro .btn-container {

@@ -404,6 +404,74 @@ header nav .nav-socials a {
   margin-bottom: 1.5rem;
 }
 
+.articles {
+  margin-top: 5rem;
+}
+.articles .img {
+  padding-bottom: 2rem;
+}
+.articles .img img {
+  width: 100%;
+  height: auto;
+}
+.articles .article {
+  position: relative;
+}
+.articles .article .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  width: 40%;
+  right: 150px;
+  bottom: 70px;
+  padding-left: 1rem;
+  background: #EEF0E2;
+}
+.articles .article .content span {
+  padding-left: 5rem;
+}
+.articles .article .content .date {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+.articles .article .content h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: "Dancing";
+  font-size: 2rem;
+  color: #6E745B;
+  font-weight: 300;
+}
+.articles .article .content p {
+  padding: 2rem 0 2rem;
+  font-family: "Lato";
+  width: 65%;
+  font-size: 0.75rem;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
