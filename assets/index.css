@@ -407,6 +407,9 @@ header nav .nav-socials a {
 .articles {
   margin: 5rem 2rem;
 }
+.articles .article {
+  position: relative;
+}
 .articles .img {
   padding-bottom: 2rem;
 }
@@ -428,6 +431,7 @@ header nav .nav-socials a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: absolute;
   padding-left: 1rem;
   background: #EEF0E2;
 }

@@ -175,6 +175,9 @@
 .articles {
   margin: 5rem 2rem;
 
+  .article {
+    position: relative;
+  }
   .img {
     padding-bottom: 2rem;
 
@@ -186,6 +189,7 @@
 
   .content {
       @include start;
+      position: absolute;
       padding-left: 1rem;
       background: $color3;
     
