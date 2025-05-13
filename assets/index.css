@@ -21,6 +21,7 @@
   letter-spacing: 2px;
   color: #6E745B;
   border: 1px;
+  border-radius: 20px;
   font-weight: 600;
 }
 .intro .btn-container button:hover {
@@ -39,6 +40,7 @@
   letter-spacing: 2px;
   color: white;
   border: 1px;
+  border-radius: 20px;
 }
 .btn-container button:hover {
   cursor: pointer;
@@ -335,18 +337,21 @@ header nav .nav-socials a {
   background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/travel.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
 }
 .categories .category .category-l {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(/assets/img/cascade.jpg);
   background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/cascade.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
 }
 .categories .category .category-h {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(/assets/img/home.jpg);
   background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/home.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
 }
 
 .newsletter {
@@ -405,7 +410,7 @@ header nav .nav-socials a {
 }
 
 .articles {
-  margin: 5rem 2rem;
+  margin: 2rem;
 }
 .articles .article {
   position: relative;
@@ -434,6 +439,7 @@ header nav .nav-socials a {
   position: absolute;
   padding-left: 1rem;
   background: #EEF0E2;
+  border-radius: 20px;
 }
 .articles .content span {
   padding-left: 5rem;
@@ -467,6 +473,39 @@ header nav .nav-socials a {
   font-family: "Lato";
   width: 65%;
   font-size: 0.75rem;
+}
+
+.popular-posts {
+  background: #6E745B;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 2rem 0 2rem;
+  max-width: 45%;
+  border-radius: 20px;
+}
+.popular-posts h3 {
+  font-family: "Dancing";
+  font-size: 2rem;
+  color: rgb(230, 228, 228);
+  padding-bottom: 2rem;
+}
+.popular-posts .posts {
+  gap: 2rem;
+}
+.popular-posts .posts .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {

@@ -124,16 +124,19 @@
       background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/travel.jpg);
       background-position: center;
       background-size: cover;
+      border-radius: 20px;
     }
     .category-l {
       background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/cascade.jpg);
       background-position: center;
       background-size: cover;
+      border-radius: 20px;
     }
     .category-h {
       background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(/assets/img/home.jpg);
       background-position: center;
       background-size: cover;
+      border-radius: 20px;
     }
   }
 }
@@ -173,7 +176,7 @@
 
 // SECTIONS
 .articles {
-  margin: 5rem 2rem;
+  margin: 2rem;
 
   .article {
     position: relative;
@@ -192,6 +195,7 @@
       position: absolute;
       padding-left: 1rem;
       background: $color3;
+      border-radius: 20px;
     
       span {
         padding-left: 5rem;
@@ -217,3 +221,28 @@
     // }
   }
 }
+
+// POST
+.popular-posts {
+  background: $color6;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 2rem 0 2rem;
+  max-width: 45%;
+  border-radius: 20px;    
+    h3 {
+      font-family: $font2;
+      font-size: 2rem;
+      color: rgb(230, 228, 228);
+      padding-bottom: 2rem;
+    }
+
+  .posts {
+    gap: 2rem;
+
+    .post {
+      @include column; 
+    }
+
+    }
+  } 

@@ -76,6 +76,7 @@ $color9:#323131;
     letter-spacing: 2px;
     color: $color6 ;
     border: 1px;
+    border-radius: 20px;
     font-weight: 600;
     
     &:hover {
@@ -95,6 +96,7 @@ $color9:#323131;
       letter-spacing: 2px;
       color: white;
       border: 1px;
+      border-radius: 20px;
       
       &:hover {
         cursor: pointer;
