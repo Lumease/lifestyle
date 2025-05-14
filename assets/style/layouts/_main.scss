@@ -180,6 +180,14 @@
 
   .article {
     position: relative;
+    .content {
+      @include column;
+      position: absolute;
+      width: 40%;
+      left: 45rem;
+      top: 4.5rem;
+    }
+
   }
   .img {
     padding-bottom: 2rem;
@@ -229,7 +237,7 @@
   margin-bottom: 2rem;
   padding-top: 2rem;
   padding-bottom: 0;
-  max-width: 70%;
+  max-width: 60%;
   border-radius: 20px;    
     h3 {
       font-family: $font2;
@@ -261,7 +269,7 @@
         p {
           color: $color6;
           font-family: $font2;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           padding: 0.75rem 0 0.75rem;
         }
       }
