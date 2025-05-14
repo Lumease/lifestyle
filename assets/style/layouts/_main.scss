@@ -227,33 +227,36 @@
   background: $color6;
   margin: 0 auto;
   margin-bottom: 2rem;
-  padding: 2rem 0 2rem;
-  height: auto;
-  max-width: 60%;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  max-width: 70%;
   border-radius: 20px;    
     h3 {
       font-family: $font2;
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: rgb(230, 228, 228);
-      padding-bottom: 2rem;
+      padding: 2rem 0 3rem;
     }
-
   .posts {
-    gap: 2rem;
-
     .post {
       @include column;
+      position: relative;
+      width: 100%;
 
-      img {
-        border-radius: 20px;
+        img {
+          width: 90%;
+          border-radius: 20px;
       }
       .p {
         @include start;
+        position: relative;
+        bottom: 50px;
         align-items: center;
         max-height: 10rem;
         background: $color3;
         border-radius: 20px;
         height: 7rem;
+        min-width: 50%;
 
         p {
           color: $color6;
@@ -263,7 +266,6 @@
         }
       }
     }
-
-
+  
     }
   } 
