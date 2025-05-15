@@ -1,11 +1,11 @@
 footer {
   @include column;
   min-height: 30vh;
-  background: $color8;
+  background: $color2;
 
   h4 {
     font-family: $font2;
-    color: white;
+    color: $color6;
     font-size: 2rem;
     text-transform: capitalize;
     margin: 2rem 0 2rem;

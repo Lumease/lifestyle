@@ -580,11 +580,11 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 30vh;
-  background: #D6B196;
+  background: #E9CCAB;
 }
 footer h4 {
   font-family: "Dancing";
-  color: white;
+  color: #6E745B;
   font-size: 2rem;
   text-transform: capitalize;
   margin: 2rem 0 2rem;
