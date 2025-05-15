@@ -129,9 +129,8 @@ li {
 .categories {
   @include space;
 }
-.article {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+.articles {
+  @include column;
 }
 .posts, h3 {
   @include center;
