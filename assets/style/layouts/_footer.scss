@@ -3,6 +3,7 @@ footer {
   min-height: 30vh;
   background: $color2;
 
+
   h4 {
     font-family: $font2;
     color: $color6;
@@ -12,6 +13,7 @@ footer {
   }
   input {
     padding: 1rem;
+    margin-bottom: 0.5rem;
   }
   .btn-container {
     @include center;
