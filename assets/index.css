@@ -760,4 +760,18 @@ footer .footer-socials a:hover {
   footer .footer-socials a {
     border: none;
   }
+}
+@media screen and (max-width: 430px) {
+  header .title h1 {
+    font-size: 2rem;
+  }
+  .intro {
+    display: none;
+  }
+  .categories {
+    margin: 0;
+  }
+  .categories .category {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=index.css.map */
