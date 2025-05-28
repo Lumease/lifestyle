@@ -192,7 +192,9 @@ header nav .nav-socials a {
 
 .intro {
   min-height: 50vh;
-  background: url(./assets/img/bg-main.jpg) center/cover fixed;
+  background: url(/assets/img/bg-main.jpg) fixed;
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 .intro .content {
@@ -345,22 +347,25 @@ header nav .nav-socials a {
   min-width: 25rem;
 }
 .categories .category .category-t {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(./assets/img/travel.jpg);
-  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/travel.jpg);
+  background: url(/assets/img/travel.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548)));
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548));
   background-position: center;
   background-size: cover;
   border-radius: 20px;
 }
 .categories .category .category-l {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(./assets/img/cascade.jpg);
-  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/cascade.jpg);
+  background: url(/assets/img/cascade.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548)));
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548));
   background-position: center;
   background-size: cover;
   border-radius: 20px;
 }
 .categories .category .category-h {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(./assets/img/home.jpg);
-  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/home.jpg);
+  background: url(/assets/img/home.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548)));
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548));
   background-position: center;
   background-size: cover;
   border-radius: 20px;

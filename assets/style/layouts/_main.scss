@@ -1,7 +1,9 @@
 // INTRO 
 .intro {
   min-height: 50vh;
-  background: url(./assets/img/bg-main.jpg) center/cover fixed;
+  background: url(/assets/img/bg-main.jpg) fixed;
+  background-position: center;
+  background-size: cover;
   position: relative;
 
   .content {
@@ -121,19 +123,22 @@
       min-width: 25rem;
     }
     .category-t {
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/travel.jpg);
+      background: url(/assets/img/travel.jpg);
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
       background-position: center;
       background-size: cover;
       border-radius: 20px;
     }
     .category-l {
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/cascade.jpg);
+      background: url(/assets/img/cascade.jpg);
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
       background-position: center;
       background-size: cover;
       border-radius: 20px;
     }
     .category-h {
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(./assets/img/home.jpg);
+      background: url(/assets/img/home.jpg);
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
       background-position: center;
       background-size: cover;
       border-radius: 20px;
