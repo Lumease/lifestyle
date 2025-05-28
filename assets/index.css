@@ -769,9 +769,18 @@ footer .footer-socials a:hover {
     display: none;
   }
   .categories {
-    margin: 0;
+    margin: 0 0 3rem;
   }
-  .categories .category {
-    margin: 0 auto;
+  .newsletter h3 {
+    font-size: 1.75rem;
+  }
+  .articles .article .content h3 {
+    font-size: 1.5rem;
+  }
+  .articles .article .content p {
+    font-size: 0.8rem;
+  }
+  .articles .article .content button {
+    font-size: 0.755rem;
   }
 }/*# sourceMappingURL=index.css.map */
