@@ -123,22 +123,20 @@
       min-width: 25rem;
     }
     .category-t {
-      background: url(../assets/img/travel.jpg);
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(../assets/img/cascade.jpg);
       background-position: center;
       background-size: cover;
       border-radius: 20px;
     }
     .category-l {
-      background: url(../assets/img/cascade.jpg);
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
+
+    background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(../assets/img/cascade.jpg);
       background-position: center;
       background-size: cover;
       border-radius: 20px;
     }
     .category-h {
-      background: url(../assets/img/home.jpg);
-      background-image: linear-gradient(rgba(62, 85, 65, 0.548));
+      background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(../assets/img/home.jpg);
       background-position: center;
       background-size: cover;
       border-radius: 20px;
