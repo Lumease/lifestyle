@@ -642,9 +642,6 @@ footer .footer-socials a:hover {
 }
 
 @media screen and (max-width: 1460px) {
-  .categories .category {
-    width: 90%;
-  }
   .popular-posts .posts {
     display: -webkit-box;
     display: -ms-flexbox;

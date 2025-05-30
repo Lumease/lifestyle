@@ -1,9 +1,4 @@
 @media screen and (max-width: 1460px) {
-  .categories {
-    .category {
-      width: 90%;
-    }
-  }
   .popular-posts {
     .posts {
       @include column;
