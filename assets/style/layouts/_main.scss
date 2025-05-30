@@ -111,9 +111,11 @@
 .categories {
   margin: 12rem 0 5rem;
 
+
   .category {
     @include center;
     gap: 10%;
+    max-width: 25rem;
 
     .category-t, .category-l, .category-h {
       @include center;

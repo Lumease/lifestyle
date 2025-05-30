@@ -329,6 +329,7 @@ header nav .nav-socials a {
       -ms-flex-align: center;
           align-items: center;
   gap: 10%;
+  max-width: 25rem;
 }
 .categories .category .category-t, .categories .category .category-l, .categories .category .category-h {
   display: -webkit-box;
@@ -741,6 +742,9 @@ footer .footer-socials a:hover {
   }
 }
 @media screen and (max-width: 850px) {
+  .articles {
+    gap: 2rem;
+  }
   .articles .article .img {
     display: none;
   }
@@ -770,6 +774,21 @@ footer .footer-socials a:hover {
     border: none;
   }
 }
+@media screen and (max-width: 630px) {
+  .intro .content h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 447px) {
+  .intro .content h2 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 438px) {
+  .intro .content button {
+    font-size: 0.75rem;
+  }
+}
 @media screen and (max-width: 430px) {
   header .title h1 {
     font-size: 2rem;
@@ -782,9 +801,6 @@ footer .footer-socials a:hover {
   }
   .categories .category {
     width: 90%;
-  }
-  .newsletter h3 {
-    font-size: 1.75rem;
   }
   .articles .article .content h3 {
     font-size: 1.5rem;
@@ -799,5 +815,22 @@ footer .footer-socials a:hover {
 @media screen and (max-width: 400px) {
   .categories .category {
     width: 90%;
+  }
+  .newsletter h3 {
+    font-size: 1.5rem;
+  }
+  .newsletter p {
+    font-size: 0.65rem;
+  }
+  footer h4 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  header .title h1 {
+    font-size: 1.75rem;
+  }
+  .newsletter h3 {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=index.css.map */
