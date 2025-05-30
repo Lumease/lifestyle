@@ -1,5 +1,7 @@
 # Bienvenue sur le premier projet one-shot "Lifestyle!" !
 
+Lien direct : https://lumease.github.io/lifestyle/
+
 Les projets "one-shot" seront régulièrement publiés et seront des projets rapides et esthétiques. Ici, pas d'intégrations complexes, ou trop volumineuses.
 
 Les photos seront différentes de la maquette, car elles sont de trop basse qualité. 
@@ -59,6 +61,8 @@ Lumease - 2025.
 --
 
 ## Welcome to the first one-shot project: "Lifestyle!"
+
+Direct link : https://lumease.github.io/lifestyle/
 
 The "one-shot" projects will be published regularly and are designed to be quick and visually appealing. No complex or heavy integrations here.
 
