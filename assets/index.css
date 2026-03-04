@@ -351,8 +351,8 @@ header nav .nav-socials a {
   border-radius: 20px;
 }
 .categories .category .category-t {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(../assets/img/cascade.jpg);
-  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(../assets/img/cascade.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(../assets/img/travel.jpg);
+  background-image: linear-gradient(rgba(62, 85, 65, 0.548)), url(../assets/img/travel.jpg);
 }
 .categories .category .category-l {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 85, 65, 0.548))), url(../assets/img/cascade.jpg);
